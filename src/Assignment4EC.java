@@ -1,3 +1,6 @@
+/*score:
+9.5 + 1.5
+comments: you could change and print the result during your debug process, but do not change the return type when handing in
 /**
  * Created by Kevin on 2/6/2017.
  */
@@ -12,7 +15,7 @@ public class Assignment4EC {
      * {0, 1, 3}, return 2.
      */
 
-    public static void missingNumber(int[] nums) {
+    public static void missingNumber(int[] nums) {              //do not change the return type
 
         for (int i = 0; i < nums.length - 1; i++) { // corner case: not ordered from lowest to highest
 
@@ -88,7 +91,7 @@ public class Assignment4EC {
      * copy of the array.
      */
 
-    public static void moveZeroes(int[] nums) {
+    public static void moveZeroes(int[] nums) {               //it is correct, but do not change the return type
 
         for (int i = 0; i < nums.length; i++) {
             if (nums[i] == 0) {
@@ -115,7 +118,7 @@ public class Assignment4EC {
      * given{2,2,3,1}, return 1.
      */
 
-    public int thirdMax(int[] nums) {
+    public int thirdMax(int[] nums) {                         //correct
 
         int c = 0;
         int cd = 0;
